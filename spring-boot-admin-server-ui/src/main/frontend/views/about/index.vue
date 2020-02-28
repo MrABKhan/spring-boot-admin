@@ -20,59 +20,7 @@
       <h1 class="title" v-text="$t('about.title')" />
       <h2 class="subtitle" v-if="version" v-text="`Version ${version}`" />
       <div class="content">
-        <p>
-          This is an administration UI for Spring Boot applications.
-        </p>
-        <p>
-          To monitor applications, they must be registered at this server. This is either done by including the
-          <a
-            :href="`${documentationBaseUrl}/#register-clients-via-spring-boot-admin`"
-          >
-            Spring Boot Admin Client
-          </a>
-          or using a
-          <a
-            :href="`${documentationBaseUrl}/#discover-clients-via-spring-cloud-discovery`"
-          >
-            Spring Cloud Discovery Client
-          </a> implementation.
-        </p>
-        <p>
-          If you have any question please consult the
-          <a :href="`${documentationBaseUrl}`">
-            Reference Guide
-          </a>, ask
-          on <a href="https://stackoverflow.com/questions/tagged/spring-boot-admin">
-            Stack Overflow
-          </a> or
-          have a chat on the <a href="https://gitter.im/codecentric/spring-boot-admin">
-            Gitter
-          </a> channel.
-        </p>
-        <p>
-          If you found a bug, want to propose a feature or submit a pull request please use the
-          <a href="https://github.com/codecentric/spring-boot-admin/issues">
-            issue tracker
-          </a>.
-        </p>
-        <div class="about-links">
-          <a class="button is-primary is-outlined"
-             :href="`${documentationBaseUrl}`"
-          >
-            <font-awesome-icon size="lg" icon="book" />&nbsp;Reference Guide
-          </a>
-          <a class="button is-black is-outlined" href="https://github.com/codecentric/spring-boot-admin">
-            <font-awesome-icon size="lg" :icon="['fab', 'github']" />&nbsp;Sources
-          </a>
-          <a class="button is-stackoverflow is-outlined"
-             href="https://stackoverflow.com/questions/tagged/spring-boot-admin"
-          >
-            <font-awesome-icon size="lg" :icon="['fab', 'stack-overflow']" />&nbsp;Stack Overflow
-          </a>
-          <a class="button is-gitter is-outlined" href="https://gitter.im/codecentric/spring-boot-admin">
-            <font-awesome-icon size="lg" :icon="['fab', 'gitter']" />&nbsp;Gitter
-          </a>
-        </div>
+        <h2>TEST BY ÖMER ÇELİK</h2>
       </div>
       <h1 class="title is-5">
         Trademarks and Licenses
