@@ -18,7 +18,9 @@
   <nav id="navigation" class="navbar is-fixed-top">
     <div class="container">
       <div class="navbar-brand">
-        <router-link class="navbar-item logo" to="/" v-html="brand" />
+        <div class="navbar-item">
+          <img src="assets/img/efectura.png" />
+        </div>
 
         <div class="navbar-burger burger" @click.stop="showMenu = !showMenu">
           <span />
@@ -92,7 +94,7 @@
   export default {
     data: () => ({
       showMenu: false,
-      brand: '<img src="assets/img/icon-spring-boot-admin.svg"><span>Spring Boot Admin</span>',
+      brand: '<img src="assets/img/efectura.png">',
       userName: null,
       csrfToken: null,
       csrfParameterName: null,
