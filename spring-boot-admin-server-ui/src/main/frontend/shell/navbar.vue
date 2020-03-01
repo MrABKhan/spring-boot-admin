@@ -19,7 +19,9 @@
     <div class="container">
       <div class="navbar-brand">
         <div class="navbar-item">
-          <img src="assets/img/efectura.png" />
+          <router-link to="/">
+            <img src="assets/img/efectura.png" />
+          </router-link>
         </div>
 
         <div class="navbar-burger burger" @click.stop="showMenu = !showMenu">
